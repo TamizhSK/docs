@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "prism",
-  "name": "Mint Starter Kit",
+  "name": "Unmai.ai",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",

@@ -1,43 +1,56 @@
-# Mintlify Starter Kit 😏
+# Unmai.ai Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Welcome to the documentation repository for **Unmai.ai**. This project uses [Mintlify](https://mintlify.com/) for its documentation.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Getting Started
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+Follow these steps to set up your local environment and preview the documentation.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+### Prerequisites
 
-## Development
+- [Node.js](https://nodejs.org/) (version 18 or higher recommended)
+- [Mintlify CLI](https://www.npmjs.com/package/mint)
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+### Installation
 
-```
-npm i -g mint
-```
+1.  **Install the Mintlify CLI:**
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+    ```bash
+    npm i -g mint
+    ```
 
-```
-mint dev
-```
+2.  **Clone the repository:**
 
-View your local preview at `http://localhost:3000`.
+    If you haven't already, clone this repository to your local machine.
 
-## Publishing changes
+    ```bash
+    git clone <your-repo-url>
+    cd docs
+    ```
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+3.  **Run the development server:**
 
-## Need help?
+    Navigate to the root of the documentation (where `mint.json` is located) and run:
 
-### Troubleshooting
+    ```bash
+    mint dev
+    ```
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+4.  **Preview:**
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+    Open your browser and go to `http://localhost:3000` to see the documentation live. The preview will automatically update as you make changes to the files.
+
+## Project Structure
+
+- `mint.json`: The configuration file for the documentation site (navigation, theme, etc.).
+- `essentials/`: Contains guides on using Markdown, code snippets, and images.
+- `api-reference/`: Contains API documentation and OpenAPI specifications.
+- `ai-tools/`: Documentation for AI tools integrations.
+
+## Deployment
+
+Changes pushed to the `main` branch are automatically deployed via the Mintlify GitHub App.
+
+## Need Help?
+
+- Check the [Mintlify Documentation](https://mintlify.com/docs) for more details on customization.
