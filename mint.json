@@ -18,18 +18,6 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
       "group": "Getting started",
@@ -37,16 +25,14 @@
         "index",
         "quickstart",
         "development"
-      ],
-      "tab": "guides"
+      ]
     },
     {
       "group": "Customization",
       "pages": [
         "essentials/settings",
         "essentials/navigation"
-      ],
-      "tab": "guides"
+      ]
     },
     {
       "group": "Writing content",
@@ -55,8 +41,7 @@
         "essentials/code",
         "essentials/images",
         "essentials/reusable-snippets"
-      ],
-      "tab": "guides"
+      ]
     },
     {
       "group": "AI tools",
@@ -64,15 +49,13 @@
         "ai-tools/cursor",
         "ai-tools/claude-code",
         "ai-tools/windsurf"
-      ],
-      "tab": "guides"
+      ]
     },
     {
       "group": "API documentation",
       "pages": [
         "api-reference/introduction"
-      ],
-      "tab": "api-reference"
+      ]
     },
     {
       "group": "Endpoint examples",
@@ -81,8 +64,19 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete",
         "api-reference/endpoint/webhook"
-      ],
-      "tab": "api-reference"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "url": "https://mintlify.com/docs",
+      "icon": "book-open-cover"
+    },
+    {
+      "name": "Blog",
+      "url": "https://mintlify.com/blog",
+      "icon": "newspaper"
     }
   ],
   "logo": {
@@ -101,18 +95,6 @@
       "label": "Dashboard",
       "href": "https://dashboard.mintlify.com"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
